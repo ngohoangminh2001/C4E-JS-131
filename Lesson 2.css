@@ -1,0 +1,37 @@
+a {
+    text-decoration: none;
+}
+
+title, h1, #line {
+    text-align: center;
+}
+
+#p2 {
+    color: gray;
+}
+
+ul {
+    list-style-type: none;
+    /*use padding to move list item from left to right*/
+    padding-left: 1em;
+}
+
+ul li:before {
+    content: "–";
+    position: absolute;
+    /*change margin to move dash around*/
+    margin-left: -1em;
+}
+
+p, b {
+    font-size: 20px;
+}
+
+.p12 {
+    font-size: 16px;
+}
+
+image {
+    width: 400;
+    height: 400;
+}
